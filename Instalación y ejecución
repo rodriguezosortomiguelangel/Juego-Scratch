@@ -1,0 +1,41 @@
+# 🛠️ Guía de Ejecución y Pruebas del Juego
+
+Este documento describe los requisitos e instrucciones para importar, ejecutar y probar el videojuego **Salvando la Manzana** en la plataforma Scratch.
+
+---
+
+## 📋 Requisitos de Entorno
+
+* **Navegador Web:** Google Chrome, Mozilla Firefox, Microsoft Edge o Safari (versiones actualizadas).
+* **Plataforma:** [Scratch Online (MIT)](https://scratch.mit.edu) o la aplicación de escritorio **Scratch Desktop 3.0**.
+* **Dispositivos de Entrada:** Teclado físico (flechas direccionales).
+
+---
+
+## 🚀 Pasos para Ejecutar el Proyecto
+
+1. **Acceso a la Plataforma:**
+   * Abre el navegador e ingresa a `https://scratch.mit.edu/projects/editor/`.
+
+2. **Carga del Archivo:**
+   * En el menú superior, haz clic en **Archivo** (*File*).
+   * Selecciona **Cargar desde tu ordenador** (*Load from your computer*).
+   * Selecciona el archivo con extensión `.sb3` de la práctica.
+
+3. **Iniciar el Juego:**
+   * Haz clic en el ícono de la **Bandera Verde** ubicado sobre el escenario para reiniciar variables e iniciar el bucle principal.
+
+4. **Controles:**
+   * Presiona **Flecha Izquierda** para mover el tazón a la izquierda.
+   * Presiona **Flecha Derecha** para mover el tazón a la derecha.
+
+---
+
+## 🧪 Lista de Verificación de Pruebas (Testing)
+
+| Caso de Prueba | Acción Esperada | Resultado |
+| :--- | :--- | :--- |
+| **Inicio del Sistema** | Al presionar la bandera verde, la variable `Puntos` se reinicia a `0`. | Pass / Fail |
+| **Generación Aleatoria** | La manzana reaparece en una coordenada X distinta tras caer. | Pass / Fail |
+| **Detección de Colisión** | Tocar el tazón incrementa `Puntos` en `+1` y reproduce un sonido. | Pass / Fail |
+| **Fin de Juego** | Si la manzana supera el límite inferior (`Y < -170`), el programa se detiene. | Pass / Fail |
