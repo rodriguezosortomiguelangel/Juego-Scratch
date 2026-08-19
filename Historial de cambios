@@ -1,0 +1,24 @@
+# 📜 Historial de Cambios (Changelog)
+
+Todos los cambios y revisiones del proyecto "Salvando la Manzana" se registran a continuación.
+
+---
+
+## [1.1.0] - 2026-08-19
+
+### 🚀 Añadido
+* Detección de colisión límite en la parte inferior del escenario para finalizar la partida.
+* Integración del efecto de sonido `Pop` cada vez que el tazón captura una manzana.
+
+### 🛠️ Ajustado
+* Aumento de la velocidad de caída de la manzana de `-5` a `-7` píxeles por fotograma para mejorar la fluidez.
+* Restricción del eje Y en el tazón a `-140` para prevenir desplazamientos diagonales imprevistos.
+
+---
+
+## [1.0.0] - Versión Inicial
+
+### 🚀 Añadido
+* Movimiento básico del tazón mediante teclado (flechas direccionales).
+* Aparición aleatoria de la manzana en la parte superior del escenario.
+* Variable `Puntos` para conteo progresivo.
